@@ -45,7 +45,7 @@
 /* tailwind css components start */
 @layer components {
   .flex-drc {
-    @apply flex justify-center items-center max-md:flex-col;
+    @apply flex justify-center items-center max-sm:flex-col;
   }
 }
 /* tailwind css utilities end */
