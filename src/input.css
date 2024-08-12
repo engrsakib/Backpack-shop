@@ -9,6 +9,14 @@
     width: 80%;
     margin: 0 auto;
   }
+  .width40 {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .width60 {
+    width: 60%;
+    margin: 0 auto;
+  }
 
   /* font related code */
   .nav-heading {
@@ -18,12 +26,26 @@
     line-height: 31px;
     letter-spacing: 0%;
   }
+  .main-heading {
+    font-family: Bebas Neue;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+  }
+  .pragraph {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+  }
 }
 /* custom code end */
 /* tailwind css components start */
 @layer components {
-    .flex-drc{
-        @apply flex justify-center items-center max-md:flex-col;
-    }
+  .flex-drc {
+    @apply flex justify-center items-center max-md:flex-col;
+  }
 }
 /* tailwind css utilities end */
